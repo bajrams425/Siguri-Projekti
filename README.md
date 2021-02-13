@@ -20,7 +20,8 @@ File i Chat
 Një server është shumë i padobishëm pa klientë që lidhen me të. Përmes main.py ne do të implementojmë klientin tonë.
 Ky file përmban programin kryesor ose Chat App. Në dritaren e këtij file useri dërgon dhe pranon mesazhe në group chat. Funksionet kryesore të tij janë të enkriptoj, dekriptoj, dërgoj, të marrë dhe të shfaqë vizualisht komunikimin me mesazhe në chat room. Programi përdor local adreses dhe porten e dhenë për t'u lidhur me server.
 
-Zbatimi i Klientit
+File i Klientit
+
 File front.py përmban pamjen e parë që i paraqitet userit. Në dritaren e këtij file useri shtyp username-in që do shfaqet në chat app. Username nuk duhet të përmbaj 'whitespaces' si dhe mund të rizgjedhet disa herë. Pas zgjedhjes, useri shtyp butonin e fshehur paraprakisht 'Vazhdo' për të vazhduar në dritaren kryesore.
                                  
                                  Hapat e ekzekutimit
