@@ -21,6 +21,7 @@ Një server është shumë i padobishëm pa klientë që lidhen me të. Deri tan
 Ky file permban programin kryesot ose Chat App. Në këtë faqe useri dërgon dhe pranon mesazhe ne group chat. Funksionet kryesore te faqes jane të enkriptoj, dekriptoj, dërgoj,të marre dhe te shfaq vizualisht komunikimin me mesazhe në chat room.  Programi përdor local adreses per t'u lidhur me server.
 
 Zbatimi i Klientit
+
 Ky file përmban pamjen e parë që i paraqitet userit.Në këtë faqe useri shtyp username-in që do shfaqet Username nuk duhet të permbaj 'whitespaces' si dhe mund të rizgjedhet disa her. Pas zgjedhjes, useri shtyp butonin e fshehur paraprakisht.
                                  
                                  Hapat e ekzekutimit
