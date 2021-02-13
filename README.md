@@ -8,20 +8,20 @@ Python është një gjuhë e shkëlqyeshme programimi për rrjetat kompjuterike.
 Arkitektura Klient-Server
 
 Për aplikimin tonë, ne do të përdorim arkitekturën klient-server. Kjo do të thotë që ne do të kemi shumë klientë (përdoruesit) dhe një server qendror që pret gjithçka dhe siguron të dhënat për këta klientë.
-Prandaj, do të duhet të shkruajmë tri skripta Python. Një do të jetë për fillimin e serverit ,një do të jetë për klientin dhe nje do te jete per chat-in. Ne do të duhet të ekzekutojmë serverin së pari, në mënyrë që të ketë një bisedë, me të cilën klientët mund të lidhen. Vetë klientët nuk do të komunikojnë drejtpërdrejt me njëri-tjetrin por përmes serverit qendror.
+Ne rastin tone kemi tre skripta Python. Një do të jetë per fillimin e serverit, një do të jetë preface per klientin dhe nje do te jete per chat-in. Ne do të duhet të ekzekutojmë serverin së pari, në qe klientët mund të lidhen me chat-room dhe te komunikojne. Vetë klientët nuk do të komunikojnë drejtpërdrejt me njëri-tjetrin por përmes serverit qendror i cili forwardon mesazhet nga nje soket ne tjetren.
 
 
-Zbatimi i serverit
+File i serverit
 
-Ky file permban serverin i cili ndegjon per mesazhe dhe forwardon ato.Ne këtë faqe useri nuk ka akses dhe dërgon mesazhe të enkriptuara.Funksion kryesor është të ndëgjoj soketa, të krijoj lidhje dhe të shfaq vizualisht komunikim ne chat room. Serveri perdor local adreses.
+File side.py permban kodin per serverin i cili do te ndegjoje per soketa dhe forwardon mesazhet neper to. Ne këtë pjese useri nuk ka akses dhe dërgon mesazhe të enkriptuara. Funksion kryesor është pra të ndëgjoj ne port per soketa, të krijoj lidhje dhe të shfaq vizualisht komunikim ne chat room. Serveri perdor local adreses.
 
-Zbatimi i Chat
+File i Chat
 
-Një server është shumë i padobishëm pa klientë që lidhen me të. Deri tani ne do të implementojmë klientin tonë. 
-Ky file permban programin kryesot ose Chat App. Në këtë faqe useri dërgon dhe pranon mesazhe ne group chat. Funksionet kryesore te faqes jane të enkriptoj, dekriptoj, dërgoj,të marre dhe te shfaq vizualisht komunikimin me mesazhe në chat room.  Programi përdor local adreses per t'u lidhur me server.
+Një server është shumë i padobishëm pa klientë që lidhen me të. Permes main.py ne do të implementojmë klientin tonë.
+Ky file permban programin kryesot ose Chat App. Në dritaren e ketij file useri dërgon dhe pranon mesazhe ne group chat. Funksionet kryesore te tij jane të enkriptoj, dekriptoj, dërgoj, të marre dhe te shfaq vizualisht komunikimin me mesazhe në chat room. Programi përdor local adreses dhe porten e dhene per t'u lidhur me server.
 
 Zbatimi i Klientit
-Ky file përmban pamjen e parë që i paraqitet userit.Në këtë faqe useri shtyp username-in që do shfaqet Username nuk duhet të permbaj 'whitespaces' si dhe mund të rizgjedhet disa her. Pas zgjedhjes, useri shtyp butonin e fshehur paraprakisht.
+File front.py përmban pamjen e parë që i paraqitet userit. Në dritaren e ketij file useri shtyp username-in që do shfaqet ne chat app. Username nuk duhet të permbaj 'whitespaces' si dhe mund të rizgjedhet disa here. Pas zgjedhjes, useri shtyp butonin e fshehur paraprakisht 'Vazhdo' per te vazhduar ne dritaren kryesore.
                                  
                                  Hapat e ekzekutimit
 
@@ -56,7 +56,7 @@ pas egzekutimit te komandes na shfaqet preface (per cdo klient, ne rastin tone 2
 
 
 Pasi ta  shkruajm  username shfaqet butoni ne fund te faqes 'Vazhdo'.
-Kujdes: nese username permban veq whitespace karaktere, nuk na lejohet qe te vazhdojme me tutje
+Kujdes: nese username permban vetem whitespace karaktere, nuk na lejohet qe te vazhdojme me tutje
 
 
 ![5](https://user-images.githubusercontent.com/58037389/107862659-6ff89a80-6e4e-11eb-8dec-a7723041ac15.png)
