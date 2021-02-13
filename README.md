@@ -109,7 +109,7 @@ Ne rastin kur nje user del nga chati apo terminon lidhjen dhe mbyll aplikacionin
 
 
 Ne rast se serveri ndalet na shfaqet mesazhi ne console...
-\nNga ana e serverit:
+Nga ana e serverit:
 
 
 
