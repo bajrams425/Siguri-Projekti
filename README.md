@@ -31,6 +31,10 @@ Për të ekzekutuar aplikacioni fillimisht ne duhet të ekzekutojm server side p
 
 
 ![1](https://user-images.githubusercontent.com/58037389/107862583-e6e16380-6e4d-11eb-897b-52680fd64efa.png)
+
+
 pycharm vs console
+
+
 ![2](https://user-images.githubusercontent.com/58037389/107862652-64a56f00-6e4e-11eb-9e25-a547ecadc045.png)
 
