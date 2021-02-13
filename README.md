@@ -21,7 +21,6 @@ Një server është shumë i padobishëm pa klientë që lidhen me të. Deri tan
 Ky file permban programin kryesot ose Chat App. Në këtë faqe useri dërgon dhe pranon mesazhe ne group chat. Funksionet kryesore te faqes jane të enkriptoj, dekriptoj, dërgoj,të marre dhe te shfaq vizualisht komunikimin me mesazhe në chat room.  Programi përdor local adreses per t'u lidhur me server.
 
 Zbatimi i Klientit
-
 Ky file përmban pamjen e parë që i paraqitet userit.Në këtë faqe useri shtyp username-in që do shfaqet Username nuk duhet të permbaj 'whitespaces' si dhe mund të rizgjedhet disa her. Pas zgjedhjes, useri shtyp butonin e fshehur paraprakisht.
                                  
                                  Hapat e ekzekutimit
@@ -41,30 +40,30 @@ pycharm vs console
 ![2](https://user-images.githubusercontent.com/58037389/107862652-64a56f00-6e4e-11eb-9e25-a547ecadc045.png)
 
 running main.py me cmd. 
-Pse me cmd? 
-Se permes cmd mujna me bo run paralelisht 2+ clienta.
+Pse cmd? 
+Sepse permes cmd mundemi te bejm run paralelisht 2+ klienta.
 
 
 ![3](https://user-images.githubusercontent.com/58037389/107862654-67a05f80-6e4e-11eb-8e4d-8dd28d19dfc5.png)
 
 
 
-na shfaqet preface front.py dy here per dy cmd    
+pas egzekutimit te komandes na shfaqet preface (per cdo klient, ne rastin tone 2)  
 
 
 
 ![4](https://user-images.githubusercontent.com/58037389/107862657-6e2ed700-6e4e-11eb-92ff-26d41bcd60e7.png)
 
 
-Pasi ta  shkruajm  username shfaqet butoni ne fund te faqes vazhdo
-Kujdes: nese username permban veq ëhitespace karaktere nuk na lejohet qe te vazhdojm me tutje
+Pasi ta  shkruajm  username shfaqet butoni ne fund te faqes 'Vazhdo'.
+Kujdes: nese username permban veq whitespace karaktere, nuk na lejohet qe te vazhdojme me tutje
 
 
 ![5](https://user-images.githubusercontent.com/58037389/107862659-6ff89a80-6e4e-11eb-8dec-a7723041ac15.png)
 
 
 
-Pasi ta shkruajm sakte username edhe klikojme vazhdo dritarja e preface front mbyllet dhe vazhdon te egzekutohet main file edhe shfaqet dritarja e main
+Pasi te shkruajme sakte username edhe klikojme butonin vazhdo, dritarja e preface Front mbyllet dhe vazhdon te egzekutohet Main file dhe shfaqet dritarja e Main
 
 
 
@@ -72,7 +71,7 @@ Pasi ta shkruajm sakte username edhe klikojme vazhdo dritarja e preface front mb
 
 
 
-Ne console na paraqitet njoftimi qe u kyq nje user.
+Ne console na paraqitet njoftimi pasi te kyqet nje user.
 
 
 
@@ -80,7 +79,7 @@ Ne console na paraqitet njoftimi qe u kyq nje user.
 
 
 
-Tani mund te filloj komunikimi. Kur nje user shenon mesazh dhe klikon butonin dergo mesazhi shfaqet ne dritare i dekriptuar
+Nga tani mund te filloj komunikimi. Kur nje user shenon mesazh dhe klikon butonin dergo mesazhi shfaqet ne dritare i dekriptuar
 
 
 
@@ -89,7 +88,7 @@ Tani mund te filloj komunikimi. Kur nje user shenon mesazh dhe klikon butonin de
 
 
 
-Ne server ne console shohim vetem mesazhin e enkriptuar
+Kurse ne server, ne console, shohim vetem mesazhin e enkriptuar, i cili do te behet forward ne soketat tjera
 
 
 
@@ -99,7 +98,7 @@ Ne server ne console shohim vetem mesazhin e enkriptuar
 
 
 
-ne rastin kur nje user del nga chati apo terminon lidhjen dhe mbyll aplikacionin
+Ne rastin kur nje user del nga chati apo terminon lidhjen dhe mbyll aplikacionin ne server shfaqet njoftimi:
 
 
 
@@ -109,8 +108,8 @@ ne rastin kur nje user del nga chati apo terminon lidhjen dhe mbyll aplikacionin
 
 
 
-Ne rast se serveri ndalet na shfaqet mesazhi ne console:
-Nga ana e serverit
+Ne rast se serveri ndalet na shfaqet mesazhi ne console...
+\nNga ana e serverit:
 
 
 
@@ -120,7 +119,7 @@ Nga ana e serverit
 
 
 
-Nga ana e klientit
+Nga ana e klientit:
 
 
 
